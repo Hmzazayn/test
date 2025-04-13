@@ -1,2 +1,65 @@
-# test
-A simple web site
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Zayn Dev</title>
+  <link rel="stylesheet" href="test.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Zayn's Dev</h1>
+      <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Hi, I'm Zayn 👋</h2>
+      <p> Zayn | Digital Development Student | 🇩🇪</p>
+    </div>
+  </section>
+
+  
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A personal website built with HTML and CSS to showcase my skills and background.</p>
+        </div>
+        <div class="project-card">
+          <h3>Electrical Dashboard</h3>
+          <p>A concept project to monitor and manage electrical systems efficiently.</p>
+        </div>
+        <div class="project-card">
+          <h3>Mobile App UI</h3>
+          <p>Prototype design for a modern and clean mobile application.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: zayn@example.com</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/zayn</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Zayn. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
